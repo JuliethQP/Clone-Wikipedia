@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    text-align: center;
+}
+
+ main .logos {
+    
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+}
+main .nav-logo h1{
+    font-size: "50%";
+}
+main .words #word1
+{   
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 150px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word1 p{
+    color: black;
+}
+main .words #word2
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 190px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+    
+}
+main .words #word2 p{
+    color:black;
+}
+main .words #word3
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 190px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word3 p{
+    color:black;
+}
+main .words #word4
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 170px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word4 p{
+    color:black;
+}
+main .words #word5
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 140px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word5 p{
+    color:black;
+}
+main .words #word6
+{
+    top: -315px; /* ajustar los valores para mover la imagen */
+    left: -150px;  
+    
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word6 p{
+    color:black;
+}
+main .words #word7
+{
+    top: -440px; /* ajustar los valores para mover la imagen */
+    left: -200px;  
+  
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word7 p{
+    color:black;
+}
+main .words #word8
+{
+    top: -570px; /* ajustar los valores para mover la imagen */
+    left: -200px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word8 p{
+    color:black;
+}
+main .words #word9
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 190px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
+main .words #word10
+{
+    top: -250px; /* ajustar los valores para mover la imagen */
+    left: 190px;  
+    right: 10px;
+    position: relative;
+    font-size: 60%;
+    overflow:hidden;
+    display: block;
+    color: blue;
+}
