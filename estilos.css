@@ -1,158 +1,322 @@
-body {
+*{
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    /*box-sizing: border-box; /*border a la caja resetea todo para que se compatible con todos los navegadores*/
+
+}
+.header
+{  
+     padding: 10px; 
+    width: 1200px;
+    height: 120px;
+    
+    padding-left: -5px;
+    padding-right: 5px;
+    justify-self: center;
+    position:relative;
+    margin:auto;
+    
+}
+.contenedor{
+   
+    
+    margin:auto;
+    width: 1200px;
+    height: 300px;
+    justify-self: center;
+    
+}
+.mundo .img-mu
+{
+    width: 20%;
+    justify-self: center;
+    margin: auto;
+   
+    
+   
+}
+.wiki .imag {
+  
+    width: 20%;
+    padding-left: -5px;
+    padding-right: 5px;
+    justify-self: center;
+    margin: auto;
+ 
+    
 }
 main{
     text-align: center;
+    justify-self: center;
+    margin: auto;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.footer{
+
+    width: 1200px;
+    
+    justify-content: center;
+    border-bottom:1px solid gray;
+    justify-self: center;
+    margin:auto;
 }
 
- main .logos {
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    margin: auto;
     
-    text-align: center;
-    width: 15px;
-    height: 15px;
-    margin-left: 500px;
-    margin-top: 200px;
-    margin-bottom: 200px;
    
 }
-main .nav-logo h1{
-    font-size: "50%";
+.navegador .label{
+    
+    padding-left: 5%;
+    padding-right: 40%;
+    justify-self: center;
 }
-main .words #word1
-{   
-    top: -250px; /* ajustar los valores para mover la imagen */
-    left: 150px;  
-    right: 10px;
+
+.navegador-img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.button{
+    
     position: relative;
-    font-size: 60%;
-    overflow:hidden;
-    display: block;
-    color: blue;
+    margin-bottom: 15px;
+    color: #36c;
+    padding: 0 .64rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+    background-color: #f8f9fa;
+    padding: 0 .64rem;
+    vertical-align: middle;
+    
+   
+    margin-top: 20px;
+    border:1px solid gray;
+    transition: outline-width .05s ;
+    
+    cursor: pointer;
+    text-transform: none;
+    justify-content: center;
 }
-main .words #word1 p{
-    color: black;
+.button:hover{
+    background-color:white;
 }
-main .words #word2
+.slogan
 {
-    top: -250px; /* ajustar los valores para mover la imagen */
-    left: 190px;  
-    right: 10px;
-    position: relative;
-    font-size: 60%;
-    overflow:hidden;
     display: block;
-    color: blue;
+    font-size: 60;
+    font-weight: 400;
+    font-family: 'Linux Libertine',Georgia,Times,serif;
+}
+.logo
+{
+    
+    background-position: 0 -254px;
     
 }
-main .words #word2 p{
-    color:black;
-}
-main .words #word3
+
+.traslate
 {
-    top: -250px; /* ajustar los valores para mover la imagen */
-    left: 190px;  
+   padding: auto; 
+   justify-content: center;
+}
+h1{
+    font-size: 18px;
+    position: relative;
+}
+p{
+    font-size: 13px;
+    justify-self: center;
+
+}
+#word1{
+    position: relative;
+
+    top: -265px; /* ajustar los valores para mover la imagen */
+    left: 130px;  
     right: 10px;
     position: relative;
-    font-size: 60%;
+    font-size: 1.6rem;
     overflow:hidden;
     display: block;
-    color: blue;
+    color: #36c;
+    cursor: pointer;
+
 }
-main .words #word3 p{
+#word1 p{
     color:black;
 }
-main .words #word4
-{
-    top: -250px; /* ajustar los valores para mover la imagen */
+#word2{
+
+    top: -244px; /* ajustar los valores para mover la imagen */
     left: 170px;  
     right: 10px;
     position: relative;
-    font-size: 60%;
+    font-size: 1.6rem;
+
     overflow:hidden;
     display: block;
-    color: blue;
+    color: #36c;
+
 }
-main .words #word4 p{
+#word2 p{
     color:black;
 }
-main .words #word5
-{
-    top: -250px; /* ajustar los valores para mover la imagen */
+#word3 {
+    position: relative;
+    top: -225px; /* ajustar los valores para mover la imagen */
+    left: 175px;  
+    right: 10px;
+    position: relative;
+    font-size: 1.6rem;
+
+    overflow:hidden;
+    display: block;
+    color: #36c;
+}
+#word3 p{
+    color:black;
+}
+#word4 {
+    position: relative;
+    top: -208px; /* ajustar los valores para mover la imagen */
+    left: 175px;  
+    right: 10px;
+    position: relative;
+    font-size: 1.6rem;
+    overflow:hidden;
+    display: block;
+    color: #36c;
+
+}
+#word4 p{
+    color:black;
+}
+#word5 {
+    position: relative;
+    
+    top: -185px; /* ajustar los valores para mover la imagen */
     left: 140px;  
     right: 10px;
     position: relative;
-    font-size: 60%;
+    font-size: 1.6rem;
     overflow:hidden;
     display: block;
-    color: blue;
+    color: #36c;
+    visibility: visible;
 }
-main .words #word5 p{
+#word5:active{
+    cursor: pointer;
+    color: -webkit-link;
+}
+#word5 p{
+    
     color:black;
 }
-main .words #word6
-{
-    top: -315px; /* ajustar los valores para mover la imagen */
-    left: -150px;  
+#word6 {
+    position: relative;
+    
+    top: -220px; /* ajustar los valores para mover la imagen */
+    left: -120px;  
+    right: 10px;
+    position: relative;
+    font-size: 1.6rem;
+    overflow:hidden;
+    display: block;
+    color: #36c;
+}
+#word6 p{
+    
+    color:black;
+}
+#word7 {
+    position: relative;
+    
+    top: -320px; /* ajustar los valores para mover la imagen */
+    left: -155px;  
     
     position: relative;
-    font-size: 60%;
+    font-size: 1.6rem;
     overflow:hidden;
     display: block;
-    color: blue;
+    color: #36c;
 }
-main .words #word6 p{
+#word7 p{
+    
     color:black;
 }
-main .words #word7
+#word8 {
+    position: relative;
+    
+    top: -430px; /* ajustar los valores para mover la imagen */
+    left: -180px;  
+    
+    position: relative;
+    font-size: 1.6rem;
+    overflow:hidden;
+    display: block;
+    color: #36c;
+}
+#word8 p{
+    
+    color:black;
+}
+#word9 {
+    position: relative;
+    
+    top: -530px; /* ajustar los valores para mover la imagen */
+    left: -180px;  
+    
+    position: relative;
+    font-size: 1.6rem;
+    overflow:hidden;
+    display: block;
+    color: #36c;
+}
+#word10{
+    position: relative;
+        
+        top: -635px; /* ajustar los valores para mover la imagen */
+        left: -160px;  
+        font-size: 1.6rem;
+        position: relative;
+        font-size: 60%;
+        overflow:hidden;
+        display: block;
+        color: #36c;
+    
+}
+#word10  p{
+    
+    color:black;
+}
+#word9 p{
+    
+    color:black;
+}
+.table
 {
-    top: -440px; /* ajustar los valores para mover la imagen */
-    left: -200px;  
+    position: relative;
+    display: flex;
+   
+    flex-flow: column;
+    justify-self: center;
+    margin:auto;
   
-    position: relative;
-    font-size: 60%;
-    overflow:hidden;
-    display: block;
-    color: blue;
 }
-main .words #word7 p{
-    color:black;
+.menu ul{
+    list-style:none ; /*quitar los puntos de la lista ordenadas*/
+    justify-self: center;
+    
+     
 }
-main .words #word8
-{
-    top: -570px; /* ajustar los valores para mover la imagen */
-    left: -200px;  
-    right: 10px;
-    position: relative;
-    font-size: 60%;
-    overflow:hidden;
-    display: block;
-    color: blue;
-}
-main .words #word8 p{
-    color:black;
-}
-main .words #word9
-{
-    top: -250px; /* ajustar los valores para mover la imagen */
-    left: 190px;  
-    right: 10px;
-    position: relative;
-    font-size: 60%;
-    overflow:hidden;
-    display: block;
-    color: blue;
-}
-main .words #word10
-{
-    top: -250px; /* ajustar los valores para mover la imagen */
-    left: 190px;  
-    right: 10px;
-    position: relative;
-    font-size: 60%;
-    overflow:hidden;
-    display: block;
-    color: blue;
-}
+
+
+
