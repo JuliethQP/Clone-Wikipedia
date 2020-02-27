@@ -72,8 +72,8 @@ main{
 .navegador .label{
     
     padding-left: 5%;
-    padding-right: 40%;
-    justify-self: center;
+    padding-right: 30%;
+    width: 2%;
 }
 
 .navegador-img {
@@ -88,14 +88,14 @@ main{
     margin-bottom: 15px;
     color: #36c;
     padding: 0 .64rem;
-    font-size: 1.3rem;
+    font-size: 1.01rem;
     font-weight: 400;
     line-height: 1;
     text-transform: none;
     background-color: #f8f9fa;
     padding: 0 .64rem;
     vertical-align: middle;
-    
+  
    
     margin-top: 20px;
     border:1px solid gray;
